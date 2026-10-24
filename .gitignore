@@ -1,0 +1,20 @@
+coverage.out
+
+# Backend build outputs (`go build` / `go test -c`)
+/backend/server
+*.test
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+*.tsbuildinfo
+
+# Local environment, logs and OS files
+.env
+.env.*
+*.log
+.DS_Store
+
+# Archives (e.g. repository snapshots shared for review)
+*.zip
